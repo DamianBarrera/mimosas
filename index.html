@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">    
+    <link rel="stylesheet" href="css/mediasquerys.css">
+    <title>Encuentros Casuales</title>
+</head>
+<body>
+    <div class="main">
+        <header>
+            <div class="logo">
+                <img src="logo.png" alt="Logo Encuentros Casuales">
+            </div>
+        </header>
+        <section class="bienvenida">
+            <article>
+                <p>
+                    Bienvenidos a Mimosascba.com Una guía virtual de escorts, acompañantes y masajistas de Córdoba. 
+                </p>
+            </article>
+        </section>
+        <section class="warning" >
+            <article>
+                <h2 class="aviso-index">Advertencia ! </h2>
+                <p>
+                    Este sitio puede llegar a contener contenido para adultos y/o material
+                    explicito no apto para menores de edad. Si sos menor de 18 años
+                    te pedimos no ingresar. 
+                </p>
+            </article>
+        </section>
+        <section class="ingreso">
+            <div class="mayor">
+                <p>Soy mayor de 18 <br> años</p>
+                <a href="escorts.html">
+                    <button class="btn-index"><img class="mano izq" src="mano izquierda.png" alt="">INGRESAR</button>
+                </a>
+            </div>
+            <div class="menor">
+                <p>Soy menor de 18 <br> años</p>
+                <a href="https://www.google.com/search?q=++carreras+universitarias&sxsrf=APq-WBsaxNP4obO0HVIEHYnUgvHWgX5XUQ%3A1644003316401&ei=9H_9Ye3-F7eo5OUPy7ig4Ac&ved=0ahUKEwjtyLvN5eb1AhU3FLkGHUscCHwQ4dUDCA8&oq=++carreras+universitarias&gs_lcp=Cgdnd3Mtd2l6EAwyBAgjECcyBAgAEEMyBQgAEIAEMgQIABBDMgQIABBDMgoIABCxAxCDARBDMgQIABBDMgsIABCABBCxAxCDATIFCAAQgAQyBQgAEIAESgQIQRgASgQIRhgAUABYAGDfEGgAcAJ4AIABkwGIAZMBkgEDMC4xmAEAoAEBwAEB&sclient=gws-wiz">
+                    <button class="btn-index">SALIR DE AQUI<img class="mano der" src="mano derecha.png" alt=""></button>
+                </a>  
+            </div>
+        </section>    
+        <section class="borde">
+            <p>
+                Al ingresar al sitio, el usuario declara bajo su responsabilidad ser mayor de edad, liberando así al sitio 
+                y sus responsables de cualquier ofensa que pudiere causarle debido al contenido del mismo.
+            </p>
+        </section>
+      
+        <section class="aclaracion">
+            <p>
+                Sitio web destinado a todas las personas que quieran dar a conocer los servicios que brindan. No somos una agencia
+                de acompañantes. Todas las personas aquí publicadas son mayores de edad que trabajan de forma autónoma. <br>
+                Mimosascba.com no tiene ninguna relación contractual con las personas aquí publicadas. 
+            </p>
+            <br>
+            <p>
+                Las personas que aquí se publican declaran ser mayores de edad y han dado su autorización y consentimiento
+                para difundir sus datos como así también sus fotos y/o videos.
+            
+            </p>
+        </section>
+        <footer>
+            <div class="derechos">
+                <p>Copyright &copy; <span id="year"></span> Mimosascba.com | Todos los derechos reservados.</p>
+            </div>
+        </footer>
+    </div>    
+    <script>
+        const year = document.querySelector('#year')
+        const currentYear = new Date().getFullYear()
+        year.textContent = currentYear ;
+    </script>
+</body>
+</html>
