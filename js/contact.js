@@ -1,54 +1,9 @@
-// ***********Fecha********************
-const year = document.querySelector('#year')
-const currentYear = new Date().getFullYear()
-year.textContent = currentYear ;
-
-
-// ***********Form*********************
-
-const form = document.querySelector('.form');
-const name = document.querySelector('#name');
-const tel = document.querySelector('#tel');
-const mail = document.querySelector('#mail');
-const textarea = document.querySelector('#textarea');
-const nWarning = document.querySelector('.nameWarning');
-const tWarning = document.querySelector('.telWarning');
-const mWarning = document.querySelector('.mailWarning');
-const aWarning = document.querySelector('.areaWarning');
-const spinner = document.querySelector('.sk-fading-circle');
-
-
-form.addEventListener('submit', formValidation);
-
-function formValidation(e){
-    e.preventDefault();
-    if( name.value.trim() === ""){
-        nWarning.style.display="block"
-        setTimeout(() => {
-            nWarning.style.display="none"
-        }, 3000);
-
-    }else if ( isNaN(tel.value) == true || tel.value.trim() === "" ){
-        tWarning.style.display="block"
-        setTimeout(() => {
-            tWarning.style.display="none"
-        }, 3000);
-
-    }else if ( mail.value.trim() === ""){
-        mWarning.style.display="block"
-        setTimeout(() => {
-            mWarning.style.display="none"
-        }, 3000);
-    }else if ( textarea.value.trim() === "" || textarea.value.length < 10){
-        aWarning.style.display="block"
-        setTimeout(() => {
-            aWarning.style.display="none"
-        }, 3000);
-    }else{
-        spinner.style.display = "block";
-        setTimeout(() => {
-        spinner.style.display = "none";
-        form.submit() 
-        }, 3500);
-    }
-}
+function _0x20fd(){const _0x1bce84=['trim','length','14372760rIeFyT','3864780AaUEQe','submit',
+'3474300AqrFtD','display','style','.areaWarning','5161764JyInmS','addEventListener','.nameWarning',
+'textContent','.sk-fading-circle','querySelector','6294MqZxJE','value','.telWarning','preventDefault',
+'#textarea','none','#name','getFullYear','block','1353AdaVhR','#year','.form','936914bxEZkF',
+'10107496CDfkTm'];_0x20fd=function(){return _0x1bce84;};return _0x20fd();}const _0x1d8724=_0x1afd;
+(function(_0xb95cf9,_0xd4928a){const _0xcde389=_0x1afd,_0x68bbee=_0xb95cf9();
+    while(!![]){try{const _0x2bd3b4=-parseInt(_0xcde389(0x1a3))/0x1+parseInt(_0xcde389(0x197))/0x2*
+    (parseInt(_0xcde389(0x1a0))/0x3)+-parseInt(_0xcde389(0x1aa))/0x4+parseInt(_0xcde389(0x1a8))
+    /0x5+parseInt(_0xcde389(0x191))/0x6+parseInt(_0xcde389(0x1a4))/0x7+-parseInt(_0xcde389(0x1a7))/0x8;if(_0x2bd3b4===_0xd4928a)break;else _0x68bbee['push'](_0x68bbee['shift']());}catch(_0x33eb1f){_0x68bbee['push'](_0x68bbee['shift']());}}}(_0x20fd,0xda5b7));const year=document[_0x1d8724(0x196)](_0x1d8724(0x1a1)),currentYear=new Date()[_0x1d8724(0x19e)]();function _0x1afd(_0x3cc18f,_0x35bfcf){const _0x20fd42=_0x20fd();return _0x1afd=function(_0x1afd9c,_0x11f9a4){_0x1afd9c=_0x1afd9c-0x191;let _0x58635e=_0x20fd42[_0x1afd9c];return _0x58635e;},_0x1afd(_0x3cc18f,_0x35bfcf);}year[_0x1d8724(0x194)]=currentYear;const form=document[_0x1d8724(0x196)](_0x1d8724(0x1a2)),name=document['querySelector'](_0x1d8724(0x19d)),tel=document[_0x1d8724(0x196)]('#tel'),mail=document[_0x1d8724(0x196)]('#mail'),textarea=document[_0x1d8724(0x196)](_0x1d8724(0x19b)),nWarning=document[_0x1d8724(0x196)](_0x1d8724(0x193)),tWarning=document[_0x1d8724(0x196)](_0x1d8724(0x199)),mWarning=document[_0x1d8724(0x196)]('.mailWarning'),aWarning=document[_0x1d8724(0x196)](_0x1d8724(0x1ad)),spinner=document['querySelector'](_0x1d8724(0x195));form[_0x1d8724(0x192)]('submit',formValidation);function formValidation(_0x47e22d){const _0x2f848d=_0x1d8724;_0x47e22d[_0x2f848d(0x19a)]();if(name['value'][_0x2f848d(0x1a5)]()==='')nWarning['style'][_0x2f848d(0x1ab)]=_0x2f848d(0x19f),setTimeout(()=>{const _0x17ae92=_0x2f848d;nWarning[_0x17ae92(0x1ac)][_0x17ae92(0x1ab)]=_0x17ae92(0x19c);},0xbb8);else{if(isNaN(tel[_0x2f848d(0x198)])==!![]||tel[_0x2f848d(0x198)][_0x2f848d(0x1a5)]()==='')tWarning['style'][_0x2f848d(0x1ab)]=_0x2f848d(0x19f),setTimeout(()=>{const _0x3098e9=_0x2f848d;tWarning['style'][_0x3098e9(0x1ab)]='none';},0xbb8);else{if(mail[_0x2f848d(0x198)]['trim']()==='')mWarning[_0x2f848d(0x1ac)][_0x2f848d(0x1ab)]=_0x2f848d(0x19f),setTimeout(()=>{const _0x295e06=_0x2f848d;mWarning[_0x295e06(0x1ac)]['display']='none';},0xbb8);else textarea[_0x2f848d(0x198)][_0x2f848d(0x1a5)]()===''||textarea[_0x2f848d(0x198)][_0x2f848d(0x1a6)]<0xa?(aWarning[_0x2f848d(0x1ac)][_0x2f848d(0x1ab)]=_0x2f848d(0x19f),setTimeout(()=>{const _0x3849aa=_0x2f848d;aWarning[_0x3849aa(0x1ac)]['display']=_0x3849aa(0x19c);},0xbb8)):(spinner[_0x2f848d(0x1ac)]['display']=_0x2f848d(0x19f),setTimeout(()=>{const _0xcc2801=_0x2f848d;spinner[_0xcc2801(0x1ac)][_0xcc2801(0x1ab)]=_0xcc2801(0x19c),form[_0xcc2801(0x1a9)]();},0xdac));}}}
