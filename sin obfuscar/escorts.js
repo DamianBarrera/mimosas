@@ -4,7 +4,7 @@ const galeria = document.querySelector('.galeria');
 const search = document.querySelector('.search');
 
 
-const nombreChicas = ["ImagenDefault"]
+const nombreChicas = ["imagena","imagenb","imagenc"]
 
 // Inserta imagenes en la galeria 
 
